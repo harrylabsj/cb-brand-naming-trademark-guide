@@ -1,8 +1,8 @@
 {
   "name": "Global Brand Naming and Trademark Guide",
   "slug": "cb-brand-naming-trademark-guide",
-  "version": "1.0.1",
-  "description": "Generate brand names that work across languages and pass trademark checks — not just creative ideas, but names with preliminary availability screening, cultural safety checks, and domain availability. Name your next product or brand in under 10 minutes.",
+  "version": "1.1.0",
+  "description": "Generate and evaluate brand names across languages with cultural safety checks and trademark-readiness preparation. Availability findings must be treated as preliminary unless backed by dated user-provided search sources.",
   "author": "Harry (OpenClaw)",
   "tags": ["naming", "brand", "trademark", "international", "localization"],
   "trigger_keywords": [

@@ -1,7 +1,7 @@
 ---
 name: Global Brand Naming and Trademark Guide
 description: Generate brand names that work across languages and pass trademark checks — not just creative ideas, but names with preliminary availability screening, cultural safety checks, and domain availability. Name your next product or brand in under 10 minutes.
-version: v1.0.0
+version: 1.1.0
 tags: brand-naming, trademark-search, cultural-validation, international-naming, brand-strategy
 ---
 
@@ -12,6 +12,15 @@ tags: brand-naming, trademark-search, cultural-validation, international-naming,
 This skill provides a structured naming strategy guide for brands entering overseas markets. It helps teams move from a vague naming brief to a shortlist of name candidates that have been screened for linguistic fit, cultural risk, memorability, category relevance, and trademark readiness. The framework covers building a naming objective and constraint brief, conducting a linguistic and pronunciation screen, applying a cultural association risk checklist, scoring names on memorability and category fit, preparing for trademark clearance, and building a shortlist comparison matrix.
 
 The guide is designed for founders, brand teams, product marketers, and localization managers who are choosing names for foreign markets.
+
+## Important Boundary
+
+This skill produces naming strategy and trademark-readiness preparation. It does
+not perform live trademark clearance, domain purchase, social-handle reservation,
+or legal availability opinions unless the user provides current search results
+from authoritative tools. Always label trademark, domain, SEO, and cultural
+screening as preliminary, dated, and requiring qualified local review before
+commercial adoption.
 
 ## When to Use
 
@@ -36,7 +45,7 @@ The guide is designed for founders, brand teams, product marketers, and localiza
 1. Build a naming brief that defines target market, audience, category conventions, brand personality, naming objective, language constraints, domain or handle needs, and legal screening stage.
 2. Evaluate candidate names for memorability, meaning, sound, spelling, pronunciation, transliteration, emotional tone, category fit, and whether the name works across likely future markets.
 3. Screen names for cultural associations, negative meanings, awkward abbreviations, slang conflicts, religious or historical sensitivity, visual presentation issues, and customer misunderstanding risk.
-4. Prepare a trademark-readiness packet for qualified counsel, including jurisdictions, classes, candidate shortlist, known similar names, usage context, domains, social handles, and planned product scope.
+4. Prepare a trademark-readiness packet for qualified counsel, including jurisdictions, Nice classes, candidate shortlist, known similar names, search date/source, usage context, domains, social handles, and planned product scope.
 5. Rank the shortlist with a decision matrix and state which names require customer testing, local linguistic review, domain negotiation, or formal trademark clearance before adoption.
 
 ## Output Modules
@@ -90,6 +99,11 @@ Or just describe what you're naming and where you're selling it.
 ## Safety and Limitations
 
 This skill provides a structured naming evaluation framework, not a legal trademark search or clearance opinion. Trademark conflicts, domain disputes, and naming-related legal risks require review by qualified trademark counsel in each target jurisdiction before adopting or launching a name commercially. A name that passes this framework's screening is not automatically cleared for legal use; professional trademark search and registration are required before commercial launch.
+
+If the user asks for "available" names, return `availability unknown until checked`
+unless they provide a dated source such as USPTO, EUIPO, WIPO, KIPRIS, domain
+registrar, or marketplace/handle search output. Never present invented trademark
+or domain results as live facts.
 
 ## Acceptance Criteria
 
